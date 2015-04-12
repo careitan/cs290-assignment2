@@ -9,10 +9,16 @@ thead {
     vertical-align:middle;
 }
 
-th {
+thead th {
     vertical-align:middle;
     width:auto;
     border:ridge black 2px;
+    background-color: white;
+}
+
+tfoot td {
+    background-color: white;
+    color: black;
 }
 
 td {
@@ -21,11 +27,11 @@ td {
 }
 
 tr:nth-child(odd) {
-background-color:lightgreen;
+    background-color:lightgreen;
 }
 
 tr:nth-child(even) {
-background-color:lightblue;   
+    background-color:lightblue;
 }
 
 td:nth-child(0) {
