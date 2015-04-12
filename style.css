@@ -16,7 +16,7 @@ thead th {
     background-color: white;
 }
 
-tfoot td {
+tfoot + td {
     background-color: white;
     color: black;
 }
@@ -34,15 +34,15 @@ tr:nth-child(even) {
     background-color:lightblue;
 }
 
-tr td:nth-child(0) {
+tr + td:nth-child(1) {
     font-style: italic;
 }
 
-tr td:nth-child(2) {
+tr + td:nth-child(2) {
     color:red;
 }   
 
-tr td:nth-child(4) {
+tr + td:nth-child(4) {
     color:blue;
 }
 
@@ -70,6 +70,8 @@ div.outer-content {
     margin-top: 20px;
     background-color: pink;
     width:75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div.inner-content {
