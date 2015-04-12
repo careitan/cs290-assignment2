@@ -32,11 +32,11 @@ td:nth-child(0) {
     font-style: italic;
 }
 
-td:nth-child(1) {
+td:nth-child(2) {
     color:red;
 }   
 
-td:nth-child(3) {
+td:nth-child(4) {
     color:blue;
 }
 
