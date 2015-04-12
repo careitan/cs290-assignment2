@@ -1,0 +1,65 @@
+table {
+    border:ridge black 2px;
+    min-width:75%;
+}
+
+thead {
+    font: 14px/16px "Times New Roman", serif;
+    font-weight: bolder;
+    vertical-align:middle;
+}
+
+th {
+    vertical-align:middle;
+    width:auto;
+    border:ridge black 2px;
+}
+
+td {
+    text-align:left;
+    border:ridge black 2px;
+}
+
+tr:nth-child(odd) {
+background-color:lightgreen;
+}
+
+tr:nth-child(even) {
+background-color:lightblue;   
+}
+
+td:nth-child(0) {
+    font-style: italic;
+}
+
+td:nth-child(1) {
+    color:red;
+}   
+
+td:nth-child(3) {
+    color:blue;
+}
+
+dt:hover + dd {
+    background-color:purple;
+}
+
+form {
+    width:700px;
+    padding:1em;
+    margin:1px;
+}
+
+input {
+    margin:10px;
+}
+
+fieldset {
+    border:2px solid #CCC;
+    margin:10px;
+}
+
+img {
+    height: 125px;
+    width: 100px;
+}
