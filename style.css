@@ -89,6 +89,7 @@ div.inner-content {
 }
 
 img {
+    background-color: gray;
     float:left;
     height: 125px;
     width: 100px;
