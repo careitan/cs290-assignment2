@@ -65,7 +65,19 @@ fieldset {
     margin:10px;
 }
 
+div.outer-content {
+    background-color: pink;
+    width:75%;
+}
+
+div.inner-content {
+    vertical-align: center;
+    background-color: blue;
+    width:75%;
+}
+
 img {
+    float:right;
     height: 125px;
     width: 100px;
 }
