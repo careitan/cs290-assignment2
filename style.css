@@ -34,15 +34,15 @@ tr:nth-child(even) {
     background-color:lightblue;
 }
 
-td:nth-child(0) {
+tr td:nth-child(0) {
     font-style: italic;
 }
 
-td:nth-child(2) {
+tr td:nth-child(2) {
     color:red;
 }   
 
-td:nth-child(4) {
+tr td:nth-child(4) {
     color:blue;
 }
 
