@@ -44,6 +44,7 @@ tbody td:nth-child(4) {
 tfoot td {
     background-color: white;
     color: black;
+    border:ridge black 2px;
 }
 
 dt:hover + dd {
